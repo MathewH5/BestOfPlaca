@@ -1,0 +1,98 @@
+*{
+    border: 0;
+    padding: 0;
+}
+html{
+    background-color: #ffffff;
+    font-size: 1rem;
+    font-size:  62.5%;
+}
+header{
+    background-color:#121212;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    text-align: right;
+}
+.info{
+    font-family: arial;
+    font-size: 1.9rem;
+    /* text-align: baseline;
+    width: 1280px;
+    height: 50px; */
+}
+.resumo{
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+h1{
+    font-family: arial;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px #D3D3D3;
+}
+#grid-secao{
+    margin-top: 10px;
+    background-color: rgb(9, 27, 30);
+    color: #ffffff;
+    text-align: center;
+}
+.grid div{
+    background-color:  rgb(18, 52, 58) ; 
+    font-family: arial;
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 3px;
+    
+}
+img{
+    float: left;
+    width: 200px;  
+    height: 200px;
+    
+    
+}
+ .divisao{
+    box-shadow: 19px 14px rgb(9, 27, 30) ;
+    width: 1300px;
+    height: 200px;
+    background-color: rgb(18, 52, 58);
+    text-align: left; 
+} 
+.divisao p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.3rem;
+    flex-wrap: wrap;
+    min-height: 89%;
+    /* padding: 8px;
+    margin: 5px;
+    font-size: 2.3rem;
+    color: #fff;  */
+}
+.goodvibe{
+    background-color: #000;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    background-color: rgb(18, 52, 58);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    text-align: right;
+}
+.historia{
+    font-family: arial;
+    font-size: 1.6rem;
+    color: #fff;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="C:\programação\trabalho Web\imagem\apple-touch-icon.png" type="image/x-icon">
+    <title>Placas de vídeos</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="a"><img src="imagem/logosemfundo.png" alt="logo" class="logo"></a>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="pagNoticia.html" target="_blank">noticias</a></li>
+                    <li><a href="vídeos.html">vídeos</a></li>
+                    <li><a class="botao" href="#destino">Sobre/Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="text">
+                <h2>BEST OF <br> <span>Placa de vídeo</span> </h2>
+                <p><i>Melhor site para os amantes da computação e jogos! Especificações, usos e funções das placas mais
+                        populares no mercado de hardware, além disso nosso site possui análise das placas para aqueles
+                        que necessitam para uso no trabalho.
+                        <br>
+                        Venha conferir nosso conteúdo!</i></p>
+                <a class="botao" href="#destino">VER MAIS</a>
+
+            </div>
+        </div>
+        <ul class="icons">
+            <li class="img1"><a href="https://m.facebook.com/groups/744128359597732/" target="_blank" ><img src="imagem/logo-face.png" alt="icons"></a>
+            </li>
+            <li class="img2"><a href="https://instagram.com/smk.tech?igshid=MzRlODBiNWFlZA==" target="_blank"><img
+                        src="imagem/logo-insta.png" alt="icons"></a></li>
+            <li class="img3"><a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCKCGljTCsChbTxSbqCVWBMJshlNvzTszmxpzpQrVJbTsnNbmtWsjKGlQKQTbrQSNqgxNtmL" target="_blank"><img src="imagem/Logo-Gmail.png" alt="icons"></a></li>  
+
+        </ul>
+        <div class="boxImg">
+            <img src="imagem/rtx-4090-ti-PhotoRoom.png-PhotoRoom.png" alt="" class="img1">
+
+        </div>
+
+
+    </section>
+
+    <section>
+
+        <!-- Botão de voltar ao topo -->
+        <button class="botao-topo" onclick="voltarAoTopo()">Voltar ao Topo</button>
+
+        <!-- Script JavaScript -->
+        <script>
+            // Função para verificar a posição da rolagem
+            window.onscroll = function () {
+                mostrarBotaoTopo();
+            };
+
+            // Função para mostrar ou ocultar o botão de voltar ao topo
+            function mostrarBotaoTopo() {
+                var botaoTopo = document.querySelector('.botao-topo');
+
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    botaoTopo.style.display = 'block';
+                } else {
+                    botaoTopo.style.display = 'none';
+                }
+            }
+
+            // Função para rolar para o topo da página
+            function voltarAoTopo() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <div id="destino">
+            <p>QUEM SOMOS?
+                Somos Estudantes de Ciências da Computação na Universidade FUMEC em Belo Horizonte, Minas Gerais.
+                Nosso objetivo?
+                Facilitar o acesso as informações de GPU (Placa de Vídeo) para assim, escolher o melhor modelo na hora
+                de comprar, sabendo realmente as especificações e funcionalidades daquele produto, tanto para aqueles
+                que gostam de games, para aqueles que trabalham com imagens e vídeos e amantes do assunto!!</p>
+        </div>
+        <div class="circle2"></div>
+    </section>
+    <form action="index.html" label="Nome">
+
+        <!-- colocar o link que deseja quando clicar em confirmar -->
+
+
+        <label> Nome </label>
+        <input type="text" name="Nome" id="Nome">
+        <label> E-mail </label>
+        <input type="email" name="email" id="email">
+
+        <button>Confirmar</button>
+
+    </form>
+    <footer> <br>
+        Agradecemos por toda atenção em nosso conteúdo! <br>
+
+        <b> SkyGpu@fumec.br</b> <br>
+        <b> Contato: (31) 989896602</b>
+
+    </footer>
+
+</body>
+
+</html>
